@@ -1,0 +1,99 @@
+/* Poppins font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* reset all default css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar css stating here  */
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+  color: #00bf85;
+}
+
+#navbarSupportedContent > button {
+  background-color: #00bf85;
+}
+
+/* hero_area section css stating here  */
+.hero_area {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_area video {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+}
+
+.hero_area a {
+  background-color: #00bf85;
+}
+
+/* about section css stating here  */
+.about h6 {
+  color: #00bf7f;
+  letter-spacing: 2px;
+}
+.about p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.about a {
+  background-color: #000000;
+}
+
+/* discovary section css stating here  */
+.discovary {
+  background-color: #000000;
+}
+.discovary h6 {
+  color: #00bf7f;
+  letter-spacing: 2px;
+}
+.discovary p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.discovary a {
+  background-color: #00bf85;
+}
+
+/* services section css stating here  */
+.services .card p {
+  font-size: 14px;
+}
+
+/* sign_up section css stating here  */
+.sign_up {
+  background-color: #000000;
+}
+.sign_up h6 {
+  color: #00bf7f;
+  letter-spacing: 2px;
+}
+.sign_up p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.sign_up a {
+  background-color: #00bf85;
+}
